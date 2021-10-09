@@ -62,7 +62,16 @@ Re-applying your stashed changes
 git stash pop
 ```
 
-### Creating private dependencies
+### Yarn workspaces
+
+```
+/app
+ - package.json
+ - /workspace-a
+   - package.json
+ - /workspace-b
+   - package.json
+```
 
 package.json
 ```json
@@ -72,11 +81,21 @@ package.json
 }
 ```
 
-then 
-
+Adding dependency to workspace
 ```shell script
-yarn install
+yarn workspace workspace-a add dependency
 ```
+
+Running script in workspace from project root
+```shell script
+yarn workspace workspace-a command
+```
+
+Running commands on each workspace
+```shell script
+yarn workspaces foreach run command
+```
+
 
 ### Run audit
 
