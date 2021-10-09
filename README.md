@@ -2,6 +2,12 @@
 
 ## GIT
 
+### ebook
+https://www.git-tower.com/learn/git/ebook
+
+### Merge vs rebase
+http://www.pzielinski.com/?p=2652
+
 ### Removing old branches
 
 ```shell script
@@ -96,7 +102,6 @@ Running commands on each workspace
 yarn workspaces foreach run command
 ```
 
-
 ### Run audit
 
 ```shell script
@@ -117,6 +122,9 @@ https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
 https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
 
+Learn about -> https://mastery.games/serviceworkies/
+
+
 ### Web Animations API
 
 https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API
@@ -133,8 +141,16 @@ https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API
 
 https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
 
+### Can I use
+https://caniuse.com/
 
-## Shell commands
+### Can I email
+https://www.caniemail.com/
+
+### Managing queues
+https://optimalbits.github.io/bull/
+
+## Transfering files
 
 ### SCP
 
@@ -162,3 +178,31 @@ your_username@rh2.edu:/some/remote/directory/
 ```shell script
 ls | sed -n 's/\(.*\)\(20[0-2]\{1\}[0-9]\{1\}\)\([0-9]\{2\}\)\([0-9]\{2\}\)\(.*\)/mv "\1\2\3\4\5" "\/Volumes\/FotoBackup\/\2\/\2\-\3\/\1\2\3\4\5"/p' | sh
 ```
+
+## Docker
+
+### Handbook
+https://www.freecodecamp.org/news/the-docker-handbook/
+
+## Tools
+
+### Server automation tool
+https://capistranorb.com/
+
+## Dealing with files
+
+### Finding informations
+
+`grep "some string" file` options
+
+- -i - case insensitive
+- -E - regex
+- -v - find lines that not match
+- -r - recursive in all files in directory
+- -o - only print matching part
+
+
+
+`find path -name filename`
+
+`find . -name "*.js"`
