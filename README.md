@@ -15,6 +15,33 @@ or
 git fetch --prune && git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -D
 ```
 
+### Multiple ssh keys on multiple repo
+
+Add to `~/.gitconfig` or `~/.config/git/config`
+
+```shell script
+[url "git@github.com:"]
+    insteadOf = https://github.com/
+[url "git@github-user1:user1"]
+    insteadOf = git@github.com:user1
+```
+
+and then in `~/.ssh/config`
+    
+```shell script    
+AddKeysToAgent  yes
+IdentitiesOnly yes
+
+Host github-user1
+    HostName github.com
+    IdentityFile ~/.ssh/id_rsa_user1
+
+Host *.example.com
+    IdentityFile ~/.ssh/id_rsa_example
+```
+
+then replace in origin from `github.com` to `github-user1` for specific repo
+
 ## NPM
 
 ### Checking outdated dependencies
