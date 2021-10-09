@@ -8,6 +8,9 @@ https://www.git-tower.com/learn/git/ebook
 ### Merge vs rebase
 http://www.pzielinski.com/?p=2652
 
+### Workflows
+https://www.atlassian.com/git/tutorials/comparing-workflows
+
 ### Removing old branches
 
 ```shell script
@@ -108,37 +111,40 @@ yarn workspaces foreach run command
 yarn audit [--level info|low|moderate|high|critical]
 ```
 
+## CSS
+
+### Flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+### Gridbox
+https://css-tricks.com/snippets/css/complete-guide-grid/
+
 ## JavaScript
 
-### Intl
+### Usefull array functions
+`includes|some|every|filter|map|reduce`
 
+### Intl
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl
 
 ### Fetch API
-
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
 ### Service worker API
-
 https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
 
 Learn about -> https://mastery.games/serviceworkies/
 
-
 ### Web Animations API
-
 https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API
 
 ### Web Components
-
 https://developer.mozilla.org/en-US/docs/Web/Web_Components
 
 ### Web RTC
-
 https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API
 
 ### WebSocket API
-
 https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
 
 ### Can I use
@@ -149,6 +155,14 @@ https://www.caniemail.com/
 
 ### Managing queues
 https://optimalbits.github.io/bull/
+
+### Node.js streams
+https://devhints.io/nodejs-stream
+
+## Process management tools
+
+### PM2
+https://pm2.keymetrics.io/docs/usage/quick-start/
 
 ## Transfering files
 
@@ -200,7 +214,6 @@ https://capistranorb.com/
 - -v - find lines that not match
 - -r - recursive in all files in directory
 - -o - only print matching part
-
 
 
 `find path -name filename`
