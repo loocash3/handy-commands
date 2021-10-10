@@ -11,6 +11,16 @@ http://www.pzielinski.com/?p=2652
 ### Workflows
 https://www.atlassian.com/git/tutorials/comparing-workflows
 
+### Rename branch
+
+```shell script
+git checkout <old_name>
+git branch -m <new_name>
+git push origin -u <new_name>
+git push origin --delete <old_name>
+```
+
+
 ### Removing old branches
 
 ```shell script
