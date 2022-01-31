@@ -229,3 +229,23 @@ https://capistranorb.com/
 `find path -name filename`
 
 `find . -name "*.js"`
+
+## Server stats
+
+### Checking disk space
+
+`du` - disk usage
+
+- -h - human format
+- -d [level] - level of depth
+- -c - total size
+
+`du -h | sort -hr` - sorting by directory size
+
+`du -sm .[!.]* *` - checking hidden files
+
+### Checking free disk space
+
+`df`
+
+- -h - human format
