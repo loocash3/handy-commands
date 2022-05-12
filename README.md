@@ -34,6 +34,18 @@ or
 git fetch --prune && git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -D
 ```
 
+### Merging an upstream repository into your fork [url](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/merging-an-upstream-repository-into-your-fork)
+
+```shell script
+git checkout DEFAULT_BRANCH_NAME
+git pull https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git BRANCH_NAME
+
+// than resolve conflicts and commit and next
+
+git push origin DEFAULT_BRANCH_NAME
+
+```
+
 ### Multiple ssh keys on multiple repo
 
 Add to `~/.gitconfig` or `~/.config/git/config`
