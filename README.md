@@ -141,6 +141,12 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 ### Gridbox
 https://css-tricks.com/snippets/css/complete-guide-grid/
 
+### Color palettes generator
+https://coolors.co/
+
+### REM vs PX
+Why to use REM
+
 ## JavaScript
 
 ### Usefull array functions
@@ -180,6 +186,17 @@ https://optimalbits.github.io/bull/
 
 ### Node.js streams
 https://devhints.io/nodejs-stream
+
+### ES6
+https://es6.io/
+
+### Web builders frameworks
+- https://grapesjs.com/
+
+### Javascript.info
+https://javascript.info/
+
+
 
 ## Process management tools
 
@@ -261,3 +278,49 @@ https://capistranorb.com/
 `df`
 
 - -h - human format
+
+## Frontend
+
+### Typescript
+
+TypeScript Type Inference Guide
+http://ducin.it/typescript-type-inference-guide
+
+### Web Vitals
+
+https://web.dev/articles/vitals?hl=pl
+
+- LCP (Largest Contentful Paint) < 2.5 sec
+- INP (Interaction to Next Paint) < 200 sec
+- CLS (Cumulative Layout Shift) < 0.1
+
+## Database
+
+### Slow Query Log Analyzer
+https://www.slowquerylog.com/analyzer#/
+
+## GIS
+
+- https://overpass-turbo.eu/
+- https://openlayers.org/en/latest/examples/vector-osm.html
+
+
+## Regex
+https://regex101.com/
+
+
+## TIOBE Programming Community Index
+https://www.tiobe.com/tiobe-index/
+
+
+## IP2Location
+https://www.ip2location.com/
+
+## Programming for kids
+
+### Scratch
+https://scratch.mit.edu/projects/editor/?tutorial=getStarted
+
+
+## Security
+https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html
